@@ -1,9 +1,15 @@
-import pandas as pd
-import numpy as np
-import re
+#!/usr/bin/env python
+
+from distutils.core import setup
+
+setup(name='Distutils',
+      version='1.0',
+      description='Python Distribution Utilities',
+      author='Greg Ward',
+      author_email='gward@python.net',
+      url='https://www.python.org/sigs/distutils-sig/',
+      packages=['distutils', 'distutils.command'],
+     )
 
 
-!pip install stop-words
-
-import stop_words
 
